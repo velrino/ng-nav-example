@@ -19,10 +19,10 @@ export class AppComponent {
   }
 
   showBack() {
-    this.active < 1;
+    return this.active > 1;
   }
 
   showNext() {
-    this.active > 3;
+    return (this.active >= 1 && this.active < 3);
   }
 }
