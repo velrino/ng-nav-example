@@ -6,5 +6,7 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular ' + VERSION.major;
+  tabs = [1, 2, 3, 4, 5];
+  counter = this.tabs.length + 1;
+  active;
 }

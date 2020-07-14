@@ -6,14 +6,18 @@
     "@angular/animations": "^10.0.1",
     "@angular/common": "^10.0.1",
     "@angular/compiler": "^10.0.1",
+    "@angular/compiler-cli": "10.0.3",
     "@angular/core": "^10.0.1",
     "@angular/forms": "^10.0.1",
+    "@angular/localize": "^10.0.0",
     "@angular/platform-browser": "^10.0.1",
     "@angular/platform-browser-dynamic": "^10.0.1",
     "@angular/router": "^10.0.1",
+    "@ng-bootstrap/ng-bootstrap": "^7.0.0",
     "ng-bootstrap": "^1.6.3",
     "rxjs": "^6.5.5",
     "tslib": "^2.0.0",
+    "typescript": ">=3.9 <4.0",
     "zone.js": "^0.10.3"
   },
   "scripts": {

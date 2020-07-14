@@ -1,4 +1,9 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
+  <li *ngFor="let id of tabs" [ngbNavItem]="id">
+    <ng-template ngbNavContent>
+      <p>Tab {{ id }} content</p>
+    </ng-template>
+  </li>
+</ul>
+
+<div [ngbNavOutlet]="nav" class="mt-2"></div>
